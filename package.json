@@ -1,0 +1,12 @@
+{
+	"name": "gulp-test",
+	"version": "0.0.1",
+	"description": "Gulp test",
+	"license": "MIT",
+	"dependencies": {
+		"gulp": "^3.7.0"
+	},
+	"devDependencies": {
+		"del": "^0.1.3"
+	}
+}
