@@ -5,7 +5,7 @@
 
 // Required dependencies
 var gulp = require('gulp'),
-	del = require('del'),
+    del = require('del'),
     sass = require('gulp-sass'),
     concat = require('gulp-concat'),
     cssmin = require('gulp-cssmin'),
@@ -15,7 +15,7 @@ var gulp = require('gulp'),
 
 // Clean dist folder
 gulp.task('clean', function() {
-	return del(['dist/**/*']);
+    return del(['dist/**/*']);
 });
 
 // SASS task
